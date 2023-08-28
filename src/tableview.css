@@ -1,0 +1,19 @@
+.table-view {
+    -fx-base: #ece4db;
+    -fx-control-inner-background: #ece4db;
+    -fx-background-color: #353839;
+    -fx-font-size:14px;
+    -fx-table-cell-border-color: #ece4db;
+    -fx-table-header-border-color: transparent;
+    -fx-font-family:Helvetica;
+}
+.table-view .table-column{
+	-fx-alignment:CENTER;
+}
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: #A6A98E;
+    -fx-table-cell-border-color: transparent;
+}
